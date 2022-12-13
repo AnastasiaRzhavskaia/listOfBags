@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:  #BA94D1;
+  /* background-image: url('bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed; */
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 400px;
+  min-height: 100vh;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  color: #445476;
+  font-size: calc(20px + 2vmin);
+}
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #445476;
+  font-size: calc(15px + 2vmin);
+}
+h3 {
+  font-size: calc(6px + 2vmin);
+  font-family: 'Josefin Sans', sans-serif;
+  color: #445476;
+  font-weight: 600;
+}
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #445476;
+}
+h5 {
+  font-size: calc(4px + 2vmin);
+  font-family: 'Josefin Sans', sans-serif;
+  color: #445476;
+}
+p {
+  font-size: calc(2px + 2vmin);
+  font-family: 'Josefin Sans', sans-serif;
+  color: #445476;
+}
+hr {
+  border: 1px solid  #ff822a;
+  width: 200px;
+  margin-top: 20px;
+}
+.div-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.btnDelete {
+  border: none;
+  background: transparent;
+  color: #ff822a;
+  cursor: pointer;
+}
+.deleteAll {
+  border: none;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ff822a;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#slider {
+  height: 450px;
+}
+.div-container-hor {
+  display: flex;
+  justify-content: center;
+}
+.btnSlider {
+  color: #ff822a;
+  border:none;
+  padding: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
